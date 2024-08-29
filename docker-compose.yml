@@ -22,7 +22,7 @@ services:
       dockerfile: Dockerfile
       args:
         INSTALL_DEV: "true"
-    shm_size: '1gb'
+    shm_size: "1gb"
     container_name: django_app
     command: [ "./runserver.sh" ]
     volumes:
