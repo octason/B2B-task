@@ -53,15 +53,7 @@ docker-compose up
 ```
 
 
-# 5. Create a Superuser
-
-To access the Django admin panel, you need to create a superuser:
-
-docker-compose exec web python manage.py createsuperuser
-
-Follow the prompts to create the superuser.
-
-# 6. Access the Application
+# 5. Access the Application
 
 You can now access the Django application in your web browser at:
 
